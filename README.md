@@ -1,7 +1,9 @@
 ## Benchmark tools  
 - - - -  
-# DD  
-- Example:  
+# DD
+- [dd](https://www.thomas-krenn.com/en/wiki/Linux_I/O_Performance_Tests_using_dd)  
+
+- Usage  
 ```bash
 dd if=/dev/zero of=/MYSQL/tmp/testfile  bs=1G count=1 oflag=direct
 

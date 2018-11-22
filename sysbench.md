@@ -51,3 +51,8 @@ vi /etc/ld.so.conf
 > Above is not confirmed yet  
 
 
+- Copy default lua files  
+```bash
+cp -r sysbench /usr/share/
+```
+

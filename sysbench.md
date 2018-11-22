@@ -37,5 +37,17 @@ EOF
 sudo yum -y install sysbench
 ```
 
+- Installation: cp from bin  
+> If encouter following error:  
+> sysbench: error while loading shared libraries: libmysqlclient.so.20: cannot open shared object file: No such file or directory  
+```bash
+export LD_LIBRARY_PATH=/MXXXL/cXXXX1/mysql-5.7.18-linux-glibc2.5-x86_64/lib
+```
+```bash
+vi /etc/ld.so.conf
+```
+> add: 
+> export LD_LIBRARY_PATH=.....  
+> Above is not confirmed yet  
 
 

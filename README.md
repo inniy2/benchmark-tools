@@ -60,6 +60,7 @@ fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --fi
 ```
 
 # IOPING  
+- [ioping](https://centos.pkgs.org/7/epel-x86_64/ioping-1.1-1.el7.x86_64.rpm.html)  
 
 - Installation  
 ```bash
